@@ -1,18 +1,18 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: #171d22;
     font-size: 1em;
     line-height: 1.4;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #fc3e37;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #fc3e37;
     text-shadow: none;
 }
 

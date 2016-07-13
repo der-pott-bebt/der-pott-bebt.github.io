@@ -15,18 +15,18 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <div class="header-container">
             <header class="wrapper clearfix">
                 <h1 class="title">h1.title</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#section2">section2</a></li>
                         <li><a href="#">nav ul li a</a></li>
                         <li><a href="#">nav ul li a</a></li>
                     </ul>
@@ -40,16 +40,14 @@
                 <article>
                     <header>
                         <h1>Skizze Infografiken "Der Pott bebt"</h1>
-                        <p>Reportagiger Einstieg: Beben am 28.05.2016 in Botrop-Kirchhellen, Stärke 3,3
-                        Wenn möglich mit Erfahrungsbericht eines Betroffenen [Rahmen? wieder ausgreifen?]
-                        Nicht das erste Beben, das Person erlebt hat bzw. nicht das erste Beben in Bottrop-Kirchhellen</p>
+                        <p> Reportagiger Einstieg: Beben am 28.05.2016 in Botrop-Kirchhellen, Stärke 3,3
+                            Wenn möglich mit Erfahrungsbericht eines Betroffenen [Rahmen? wieder ausgreifen?]
+                            Nicht das erste Beben, das Person erlebt hat bzw. nicht das erste Beben in Bottrop-Kirchhellen</p>
                     </header>
                     <section>
-                        <h2>Zwischenüberschrift in h2</h2>
-                        <p>Solche Beben sind im Ruhrgebiet seit Jahrzehnten immer wieder zu beobachten. Seit den 1970er Jahren misst das seismologische Observatorium in Bochum die Erschütterungen.
+                        <h2> Zwischenüberschrift in h2</h2>
+                        <p> Solche Beben sind im Ruhrgebiet seit Jahrzehnten immer wieder zu beobachten. Seit den 1970er Jahren misst das seismologische Observatorium in Bochum die Erschütterungen.
                           <p>
-                            {Karte}
-                            <br>
                             <iframe width="100%" height="520" frameborder="0" src="https://graph-zahl.carto.com/viz/617fbd4a-4788-11e6-b10b-0e3ebc282e83/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                           </p>
                         <p>
@@ -74,7 +72,8 @@ anders als natürliche Beben, z.b. geringere Tiefe (in direkter Umgebung zu Sch�
 Erdbeben sind zeitlich und kausal direkt vom Bergbau abhängig.
 </p>
 <p><div>
-{Histogramme}
+{Histogramme} <br>
+<div id="container" style="min-width: 300px; height: 400px; margin: 0 auto"></div>
 </div></p>
 <p>
 Hören jetzt auf, da Zechen gechlossen werden (Bsp: Hamm)
@@ -86,8 +85,9 @@ RAG: zeitl. Plan und Kosten
 <p>
 ENDE
 </p>
+
                     </section>
-                    <section>
+                    <section id="section2">
                         <h2>article section h2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
                     </section>
@@ -111,19 +111,21 @@ ENDE
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/charts.js"></script>
     </body>
 </html>
