@@ -21,56 +21,57 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-      <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Shortcuts</a>
-                </li>
-                <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div id="page-content-wrapper">
         <div class="header-container">
             <header class="wrapper clearfix">
                 <h1 class="title">Der Pott bebt</h1>
             </header>
         </div>
+      <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Der Pott bebt
+                    </a>
+                </li>
+                <li>
+                    <a href="#intro">Intro</a>
+                </li>
+                <li>
+                    <a href="#ab2">Abschnitt 2</a>
+                </li>
+                <li>
+                    <a href="#ab3">Abschnitt 3</a>
+                </li>
+                <li>
+                    <a href="#ab4">Abschnitt 4</a>
+                </li>
+                <li>
+                    <a href="#ab5">Abschnitt 5</a>
+                </li>
+                <li>
+                    <a href="#sources">Quellen</a>
+                </li>
+                <li>
+                    <a href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <div id="page-content-wrapper">
+
 
         <div class="main-container">
             <div class="main wrapper clearfix">
 
                 <article>
                     <header>
-                        <h1>Text-Skizze</h1>
+                        <h1 id="intro">Text-Skizze</h1>
                         <p> Reportagiger Einstieg: Beben am 28.05.2016 in Botrop-Kirchhellen, Stärke 3,3
                             Wenn möglich mit Erfahrungsbericht eines Betroffenen [Rahmen? wieder ausgreifen?]
                             Nicht das erste Beben, das Person erlebt hat bzw. nicht das erste Beben in Bottrop-Kirchhellen</p>
                     </header>
                     <section>
-                        <h2> Zwischenüberschrift in h2</h2>
+                        <h2 id="ab2"> Zwischenüberschrift in h2</h2>
                         <p> Solche Beben sind im Ruhrgebiet seit Jahrzehnten immer wieder zu beobachten. Seit den 1970er Jahren misst das seismologische Observatorium in Bochum die Erschütterungen.
                           <p>
                             <iframe width="100%" height="520" frameborder="0" src="https://graph-zahl.carto.com/viz/617fbd4a-4788-11e6-b10b-0e3ebc282e83/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
@@ -124,23 +125,28 @@ ENDE
                     </footer>
                 </article>
 
+                <!--
                 <aside id="nav">
                     <h3>Abschnitte</h3>
-                    <nav><p>
+                    <nav>
+                      <p>
                         <ol>
                             <li><a href="#section2">section2</a></li>
                             <li><a href="#">nav ul li a</a></li>
                             <li><a href="#">nav ul li a</a></li>
                         </ol>
 
-                  </p>  </nav>
+                      </p>
+                  </nav>
                 </aside>
-
+              -->
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
         <div class="footer-container">
-            <footer class="wrapper">
+          <p id="sources">Quellen
+          </p>
+            <footer id="contact" class="wrapper">
                 <h3>footer</h3>
             </footer>
         </div>

@@ -7,7 +7,7 @@ $(function () {
             text: 'Anzahl Erdbeben pro Wochentag'
         },
         subtitle: {
-            text: 'Quelle: WorldClimate.com'
+            text: 'Quelle: xx'
         },
         xAxis: {
             categories: [
@@ -30,7 +30,7 @@ $(function () {
         tooltip: {
             headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                '<td style="padding:0"><b>{point.y:.1f} Erdbeben</b></td></tr>',
             footerFormat: '</table>',
             shared: true,
             useHTML: true
@@ -64,7 +64,7 @@ $(function () {
             text: 'Vertelung der Erdbeben im Tagesverlauf'
         },
         subtitle: {
-            text: 'Quelle: WorldClimate.com'
+            text: 'Quelle: xx'
         },
         xAxis: {
             categories: [
@@ -104,7 +104,7 @@ $(function () {
         tooltip: {
             headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                '<td style="padding:0"><b>{point.y:.1f} Erdbeben</b></td></tr>',
             footerFormat: '</table>',
             shared: true,
             useHTML: true
