@@ -77,7 +77,6 @@
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #b20902;
-    background: rgba(255,255,255,0.2);
 }
 
 .sidebar-nav li a:active,

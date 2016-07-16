@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #fc3e37;
+    background: #ffdddc;
     text-shadow: none;
 }
 
 ::selection {
-    background: #fc3e37;
+    background: #ffdddc;
     text-shadow: none;
 }
 
@@ -153,14 +153,7 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#nav {
-  position: fixed;
-  top: 50;
-  right: 0;
-  width: 100px;
-  height: 20%;
-  border: 3px solid #b20902;
-}
+
 
 
 
