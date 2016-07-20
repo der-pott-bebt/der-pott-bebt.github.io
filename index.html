@@ -16,8 +16,12 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="css/simple-sidebar.css" rel="stylesheet">
+    <style>
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+    </style>
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="/js/Highcharts-4.2.5/js/themes/dark-unica.js"></script>
 
 </head>
 
@@ -33,35 +37,15 @@
     <div id="wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Der Pott bebt
-                    </a>
-                </li>
-                <li>
-                    <a href="#intro">Intro</a>
-                </li>
-                <li>
-                    <a href="#ab2">Abschnitt 2</a>
-                </li>
-                <li>
-                    <a href="#ab3">Abschnitt 3</a>
-                </li>
-                <li>
-                    <a href="#ab4">Abschnitt 4</a>
-                </li>
-                <li>
-                    <a href="#ab5">Abschnitt 5</a>
-                </li>
-                <li>
-                    <a href="#sources">Quellen</a>
-                </li>
-                <li>
-                    <a href="#contact">Kontakt</a>
-                </li>
-                <li>
-                    <a href="#methodology">Methodik</a>
-                </li>
+                <li class="sidebar-title"><a href="#"><b>Der Pott bebt</b></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#section1">Abschnitt 1</a></li>
+                <li><a href="#section2">Abschnitt 2</a></li>
+                <li><a href="#section3">Abschnitt 3</a></li>
+                <li><a href="#section4">Abschnitt 4</a></li>
+                <li><a href="#methodology">Methodik</a></li>
+                <li><a href="#sources">Quellen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </div>
         <div id="page-content-wrapper">
@@ -92,7 +76,7 @@
                                     <div>
                                         {Stärkeskala}
                                         <br>
-                                        <audio id="mysound" src="click2.mp3"></audio>
+                                        <audio id="mysound" src="click.mp3"></audio>
                                         <img src="sound-image.jpg" onmouseover="document.getElementById('mysound').play()" onmouseout="document.getElementById('mysound').pause()"></img>
                                         <br>
                                     </div>
@@ -115,29 +99,30 @@
                                         <div id="chart_magnitude" style="min-width:300ßx; height: 400px; margin:0 auto"></div>
 
                                     </div>
+                                </p>
+                                <p>
+                                    Hören jetzt auf, da Zechen gechlossen werden (Bsp: Hamm)
+                                </p>
+                                <p>
+                                    Wenn der Wasserspiegel angehoben wird, können wieder Beben entstehen, wie im Saarland schon geschehen. RAG: zeitl. Plan und Kosten
+                                </p>
+                                <p>
+                                    ENDE
+                                </p>
+                        </section>
+                        <section id="methodology">
+                            <h2>Methodik</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta
+                                velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        </section>
+                        <footer id="contact">
+                            <h3>Kontakt</h3>
+                            <p>Datenauswertung: Katharina Kock | xx <br>
+                              Text: Sophie Rotgeri | sophie.rotgeri@journocode.com<br>
+                              Visualisierung & Website: Moritz Zajonz | moritz.zajonz@journocode.com
+                            </p>
+                        </footer>
                 </div>
-                </p>
-                <p>
-                    Hören jetzt auf, da Zechen gechlossen werden (Bsp: Hamm)
-                </p>
-                <p>
-                    Wenn der Wasserspiegel angehoben wird, können wieder Beben entstehen, wie im Saarland schon geschehen. RAG: zeitl. Plan und Kosten
-                </p>
-                <p>
-                    ENDE
-                </p>
-
-                </section>
-                <section id="section2">
-                    <h2>article section h2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis
-                        nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                </section>
-                <footer>
-                    <h3>article footer h3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis
-                        nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                </footer>
                 </article>
 
                 <!--
@@ -198,5 +183,5 @@
     <script src="main.js">
         < script >
             <
-            /body> <
-            /html>
+            /body> < /
+            html >

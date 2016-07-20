@@ -1,0 +1,27 @@
+Station.code,station name,region      ,latitude    ,longitude   ,elevation   ,depth       ,open        ,close       ,remark      ,institution ,network     ,title       ,email       ,,registered,,dataless SEED
+BUG,Bochum-University Germany," Nordrhein-Westfalen, Germany",51.44060,7.26928,85.0,0.0,10/01/1971,,GRSN opened 1991-09-28," Ruhr-University Bochum; Seismological Observatory; Institute of Geology, Mineralogy and Geophysics","BUG (ISC), GR (FDSN)", Kasper Fischer, kasper.fischer@ruhr-uni-bochum.de,,yes,,yes
+IBBN,Ibbenbüren,,52.30719,7.75661,137.0,0.0,01/01/1995,,"GFON opened 199809, coords corrected 19990, 52.306306     7.759212     131m",,"BUG (ISC), GE (FDSN)",,,,yes,,yes
+BAHL,Ahlen,,51.73689,7.82169,92.0,0.0,09/01/2002,04/06/2011,,," BUG (ISC), RN (FDSN)",,,,yes,,yes
+BAVN, Auguste-Victoria Mine North,,51.73854,7.12220,65.0,0.0,02/21/2011, ,,,,,,,yes,,yes
+BAVS,Auguste-Victora Mine South,,51.69980,7.13310,34.0,0.0,12/07/2011,,,,,,,,no,,yes
+BHOF,Ruhr-University Bochum – Hof Stiepel,,51.42890,7.26140,132.0,0.0,02/07/2011,01/30/2013,,,,,,,yes,,yes
+BKLB,Ruhr-University Bochum – Klosterbusch Mine ,,51.44011,7.26969,85.0,0.0,01/01/1982,,,,,,,,yes,,yes
+BPFI,Ruhr-University Bochum – Pfingstblume Mine,,51.4185,7.2276,120,40,08/28/2012,,,,,,,,no,,yes
+BRHE,Rheinberg,,51.51550,6.57100,24.0,0.0,12/01/2004,,Data from BRHE sent via SZGRF/BGR,,,,,,yes,,yes
+BRH2,Rheinberg 2,,51.51183,6.57293,21.0,0.0,11/20/2012,,,,,,,,no,,yes
+BRH3,Rheinberg 3,,51.51280,6.57301,24.0,0.0,11/15/2012,,,,,,,,,,
+BSHA,Ruhr-University Bochum – Staatshochbauamt,,51.44689,7.24450,148.0,0.0,01/01/1982,01/23/2012,,,,,,,yes,,yes
+BTEZ,Ruhr-University Bochum – Technical Center,,51.44900,7.27900,112.0,0.0,01/01/1982,,,,,,,,yes,,yes
+BULI,Ruhr-University Bochum – State Language Institute,,51.45437,7.26023,145.0,0.0,06/09/2011,,,,,,,,yes,,yes
+HMES,Hamm Michael-Ende-School,,51.65777,7.72634,56.0,0.0,08/01/2004,,,,,,,,yes,,yes
+IBBE,Ibbenbüren East,,52.29979,7.79430,141.0,0.0,12/01/2005,,,,,,,,yes,,yes
+IBBS,Ibbenbüren South,,52.28428,7.74856,169.0,0.0,12/01/2005,,,,,,,,yes,,yes
+ZERL,Hünxe Zerlegebetrieb,,51.62070,6.86950,51.0,0.0,12/01/2004,,alias BZER,,,,,,yes,,yes
+ZER1,Prosper-Haniel 1,,51.59472,6.82523,58.0,0.0,06/26/2012,,,,,,,,no,,
+ZER2,Prosper-Haniel 2,,51.58713,6.90604,49.0,0.0,08/04/2012,04/16/2013,,,,,,,no,,
+ZER3,Prosper-Haniel 3,,51.61275,6.83842,64.0,0.0,08/24/2012,,,,,,,,no,,yes
+ZER4,Prosper-Haniel 4,,51.59441,6.88356,66.0,0.0,07/24/2012,11/16/2012,,,,,,,no,,
+BHXE,Hünxe,,51.63081,6.89289,159.6,0.0,07/29/2002,10/06/2003,,,,,,,yes,,
+HRH,Heinrich-Robert-Mine,,51.62339,7.75269,50.0,-888.0,04/01/1986,12/31/1997,,,BUG (ISC),,,,yes,,
+RPM,Rheinpreußen-Mine,,51.47231,6.63431,50.0,-412.0,04/01/1986,12/31/1997,,,,,,,yes,,
+NABF,Gebäude NABF,,,,,,,,,,,,,,,,
