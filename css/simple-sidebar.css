@@ -87,7 +87,8 @@
 .sidebar-nav > .sidebar-title {
     height: 65px;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .sidebar-nav > .sidebar-title a {

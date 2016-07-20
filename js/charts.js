@@ -8,8 +8,8 @@ $(function() {
             text: 'Erdbeben im Wochenverlauf'
         },
         subtitle: {
-            text: 'Zeitraum: 1983-2016 | <a href="http://www.gmg.ruhr-uni-bochum.de/geophysik/seisobs/index.html"> Daten: Seismologisches Observatorium der Ruhr-Universität Bochum</a>',
-            useHTML: true
+            text: 'Zeitraum: 1983-2016 | <a href="https://github.com/der-pott-bebt/der-pott-bebt.github.io/tree/master/data"> Daten (Github):</a> Seismologisches Observatorium der Ruhr-Universität Bochum | Gesamtzahl der Erdbeben: <a href=#chart1>26136</a>',
+            useHTML: true,
         },
         xAxis: {
             categories: [
@@ -38,7 +38,7 @@ $(function() {
                 '<td style="padding:0"><b> {point.y:.f}</b></td></tr>',
             footerFormat: '</table>',
             shared: true,
-            useHTML: true
+            useHTML: true,
         },
 
         legend: {
@@ -78,7 +78,7 @@ $(function() {
             text: 'Erdbeben im Tagesverlauf'
         },
         subtitle: {
-            text: 'Zeitraum: 1983-2016 | <a href="http://www.gmg.ruhr-uni-bochum.de/geophysik/seisobs/index.html"> Daten: Seismologisches Observatorium der Ruhr-Universität Bochum',
+            text: 'Zeitraum: 1983-2016 | <a href="https://github.com/der-pott-bebt/der-pott-bebt.github.io/tree/master/data"> Daten (Github):</a> des Seismologischen Observatorium der Ruhr-Universität Bochum | Gesamtzahl der Erdbeben: <a href=#methodology>26136</a>',
             useHTML: true
         },
         xAxis: {
@@ -131,7 +131,7 @@ $(function() {
             text: 'Stärke der Erdbeben'
         },
         subtitle: {
-            text: 'Zeitraum: 1983-2016 | <a href="http://www.gmg.ruhr-uni-bochum.de/geophysik/seisobs/index.html"> Daten: Seismologisches Observatorium der Ruhr-Universität Bochum',
+            text: 'Zeitraum: 1983-2016 | <a href="https://github.com/der-pott-bebt/der-pott-bebt.github.io/tree/master/data"> Daten (Github):</a> des Seismologischen Observatorium der Ruhr-Universität Bochum | Gesamtzahl der Erdbeben: <a href=#methodology>13620</a>',
             useHTML: true
         },
         xAxis: {
