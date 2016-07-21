@@ -128,13 +128,22 @@ nav a:hover {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 #intro {
     float: left;
     width: 0.7em;
     font-size: 600%;
     line-height: 80%;
+
+    color: #b20902;
+    text-shadow: true;
 }
 
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #b20902;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
