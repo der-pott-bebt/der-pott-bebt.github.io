@@ -134,12 +134,17 @@ body {
     width: 0.7em;
     font-size: 600%;
     line-height: 80%;
-
-    color: #b20902;
+    color: #171d22;
     text-shadow: true;
 }
 
-a {
+.twitter-tweet a {
+  text-decoration: none;
+  font-style: italic;
+  color: #b20902;
+}
+
+.chart a {
   text-decoration: none;
   font-style: italic;
   color: #b20902;
