@@ -129,6 +129,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: #b20902;
+  text-decoration: none;
+}
+
 #intro {
     float: left;
     width: 0.7em;

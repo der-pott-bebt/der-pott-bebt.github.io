@@ -232,7 +232,7 @@ $(function() {
 $(function() {
     $('#chart_magnitude').highcharts({
         chart: {
-            type: 'column'
+            type: 'bar'
         },
         title: {
             text: 'Magnituden'
@@ -245,7 +245,8 @@ $(function() {
             crosshair: false,
             title: {
               text: 'Richter-Skala'
-            }
+            },
+            reversed: false
         },
         yAxis: {
             min: 0,
@@ -275,6 +276,7 @@ $(function() {
         },
         series: [{
             name: 'Erdbeben',
+            color: '#b20902',
             data: [
                 [1.0, 1849],
                 [1.1, 1857],
