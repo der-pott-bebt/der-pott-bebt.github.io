@@ -105,9 +105,7 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#whole {
-  margin: auto;
-}
+
 
 .project-red {
   color: #b20902;
@@ -169,6 +167,7 @@ body {
   color: #b20902;
 }
 
+/* Magnituden-Skala mit Tooltips */
 #section_scale {
   width: 80%;
   height: 650px;
@@ -180,23 +179,33 @@ div#img_scale {
   width: 15%;
   height: 100%;
   position: relative;
-  left: 15%;
-  top: 14%;
+  left: 10%;
+  top: 17%;
   float: left;
 }
 
 div#mag {
-    width: 80%;
-    background: black;
+    width: 94%;
     margin-left: 20%;
-    margin-right: auto;
+    margin-right: 20%;
 }
-
+/*Tooltip-Skala ENDE*/
 div#content-wrapper {
   text-align: left;
 
 }
 
+footer {
+  color: #ffffff;
+  background-color: #171d22;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
+address {
+  text-align: left;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -263,6 +272,7 @@ div.wrapper {
         width: 60%;
         /* 1140px - 10% for margins */
         margin: 50px 20% 30px 20%;
+        text-align: justify;
     }
 }
 

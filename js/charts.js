@@ -115,7 +115,7 @@ $(function() {
             }
         },
         series: [{
-            name: 'Anzahl Erdbeben',
+            name: 'Erdbeben',
             data: [1530, 1510, 1423, 1367, 1026, 786, 690, 622, 706, 768, 890, 880, 860, 926, 954, 1075, 1071, 1102, 1143, 1353, 1397, 1391, 1354, 1312]
         }]
     });
@@ -313,19 +313,19 @@ $(function() {
             zoneAxis: 'x',
             zones: [{
                 value: 1.5,
-                color: '#fecac8'
+                color: '#feb8b5'
             }, {
                 value: 2,
-                color: '#fe928e'
+                color: '#fe8782'
             }, {
               value: 2.5,
-              color: '#fd5b54'
+              color: '#fd5750'
             }, {
               value: 3,
-              color: '##fd352d'
+              color: '#e40c03'
             }, {
                 value: 3.5,
-                color: '#fc1006'
+                color: '#cb0a02'
             }, {
                 value: 4,
                 color: '#b20902'
