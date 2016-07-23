@@ -13,14 +13,7 @@ html {
     background: #ffdddc;
     text-shadow: none;
 }
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+
 audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
@@ -43,35 +36,24 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-.wrapper {
-    width: 100%;
-}
+
+
 
 /* ===================
     ALL: CHARCOAL Theme
    =================== */
 
-.header-container {
-    border-bottom: 20px solid #171d22;
-}
-.footer-container, .main aside {
-    border-top: 20px solid #171d22;
-}
-.header-container, .footer-container, .main aside {
+
+/.header-container, .footer-container, .main aside {
     background: #171d22;
 }
-.title {
-    color: white;
-}
+
 
 /* ==============
     MOBILE: Menu
    ============== */
 
-nav ul {
+/*nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -91,13 +73,13 @@ nav a:hover, nav a:visited {
 }
 nav a:hover {
     text-decoration: underline;
-}
+}*/
 
 /* ==============
     MOBILE: Main
    ============== */
 
-.main {
+/*.main {
     padding: 30px 0;
 }
 .main h1 {
@@ -110,7 +92,7 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
-}
+}*/
 
 /* ===============
     ALL: IE Fixes
@@ -123,14 +105,44 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#whole {
+  margin: auto;
+}
+
+.project-red {
+  color: #b20902;
+}
+.project-black {
+  color: #171d22;
+}
+
+.w3-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#text-top {
+  margin: -20% auto 10% auto;
+}
+
+#text-top h1{
+  color: #171d22;
+  font-size: 5em;
+  opacity: 0.9;
+  line-height: 80%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#text-top p {
+  color: #171d22;
+  font-size: 2em;
+  opacity: 0.7;
+  line-height: 20%;
+  text-align: center;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-a {
-  color: #b20902;
-  text-decoration: none;
 }
 
 #contact a:hover {
@@ -159,22 +171,25 @@ a {
 
 #section_scale {
   width: 80%;
-   background: aqua;
+  height: 650px;
    margin: auto;
    padding: 10px;
 }
 
 div#img_scale {
   width: 15%;
-  height: 200px;
-  background: red;
+  height: 100%;
+  position: relative;
+  left: 15%;
+  top: 14%;
   float: left;
 }
 
 div#mag {
     width: 80%;
-    padding-left: 40%;
     background: black;
+    margin-left: 20%;
+    margin-right: auto;
 }
 
 div#content-wrapper {
@@ -190,7 +205,7 @@ div#content-wrapper {
     /* ====================
     INTERMEDIATE: Menu
    ==================== */
-    nav a {
+    /*nav a {
         float: left;
         width: 27%;
         margin: 0 1.7%;
@@ -206,26 +221,22 @@ div#content-wrapper {
     /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
-    nav ul li {
+    /*nav ul li {
         display: inline;
     }
     .oldie nav a {
         margin: 0 0.7%;
     }
-}
+}*/
 @media only screen and (min-width: 768px) {
     /* ====================
     WIDE: CSS3 Effects
    ==================== */
-    .header-container, .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-        -moz-box-shadow: 0 5px 10px #aaa;
-        box-shadow: 0 5px 10px #aaa;
-    }
+
     /* ============
     WIDE: Menu
    ============ */
-    .title {
+    /*.title {
         float: left;
     }
     nav {
@@ -235,7 +246,7 @@ div#content-wrapper {
     /* ============
     WIDE: Main
    ============ */
-    .main article {
+    /*.main article {
         float: left;
         width: 57%;
     }
@@ -243,15 +254,15 @@ div#content-wrapper {
         float: right;
         width: 28%;
     }
-}
+}*/
 @media only screen and (min-width: 1140px) {
     /* ===============
     Maximal Width
    =============== */
-    .wrapper {
-        width: 1026px;
+div.wrapper {
+        width: 60%;
         /* 1140px - 10% for margins */
-        margin: 0 auto;
+        margin: 50px 20% 30px 20%;
     }
 }
 

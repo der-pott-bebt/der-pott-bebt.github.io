@@ -230,7 +230,7 @@ $(function() {
 
 //Chart #3: Distribution of earthquake-magnitudes in the Ruhrgebiet
 $(function() {
-    $('#chart_magnitude').highcharts({
+    $('#mag').highcharts({
         chart: {
             type: 'bar'
         },
