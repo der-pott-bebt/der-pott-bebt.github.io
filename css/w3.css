@@ -371,7 +371,7 @@ ul.w3-ul li:last-child {
     color: #171d22
 }
 .w3-navbar a, .w3-topnav a, .w3-sidenav a, .w3-dropdown-content a, .w3-accordion-content a, .w3-dropnav a {
-    text-decoration: none!important;
+    text-decoration: none;
     background-color: #171d22;
 }
 .w3-navbar .w3-opennav.w3-right {
@@ -526,7 +526,7 @@ ul.w3-ul li:last-child {
 .w3-dropdown-content {
     cursor: auto;
     color: #000;
-    background-color: #fff;
+    background-color: #171d22;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -1084,7 +1084,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
     }
 }
 .w3-container {
-    padding: 0.01em 16px
+    padding: 0.01em 16px;
 }
 .w3-example {
     background-color: #f1f1f1;
