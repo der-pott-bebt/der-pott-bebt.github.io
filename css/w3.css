@@ -27,14 +27,8 @@ audio:not([controls]) {
 [hidden], template {
     display: none
 }
-#whole a {
-color: #b20902;
-text-decoration: none;
-}
-a:active, a:hover {
-    outline: 0;
-    background-color: lightgrey
-}
+
+
 abbr[title] {
     border-bottom: 1px dotted
 }

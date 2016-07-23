@@ -8,7 +8,7 @@ $(function() {
             text: 'Erdbeben im Wochenverlauf'
         },
         subtitle: {
-            text: 'Zeitraum: 1983-2016 | <a href="https://github.com/der-pott-bebt/der-pott-bebt.github.io/tree/master/data"> Daten (Github):</a> Seismologisches Observatorium der Ruhr-Universität Bochum | Gesamtzahl der Erdbeben: <a href=#chart1>26136</a>',
+            text: 'Zeitraum: 1983-2016 | <a href="https://github.com/der-pott-bebt/der-pott-bebt.github.io/tree/master/data"> Daten (Github):</a> Seismologisches Observatorium der Ruhr-Universität Bochum | Gesamtzahl der Erdbeben: <a href=#methodology>26136</a>',
             useHTML: true,
         },
         xAxis: {
