@@ -146,7 +146,7 @@ body {
 #contact a:hover {
     background-color: #000000;
 }
-#intro {
+header:first-child::first-letter {
     float: left;
     width: 0.7em;
     font-size: 550%;
