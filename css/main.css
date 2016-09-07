@@ -140,6 +140,18 @@ a:active, a:hover {
     line-height: 20%;
     text-align: center;
 }
+
+p:first-child:first-letter {
+  font-size: 72px;
+  float: left;
+  padding: 10px;
+  height: 64px;
+  font-family: 'Open Sans';
+  margin-right: 10px;
+  color: #171d22;
+  line-height: 70px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -271,10 +283,12 @@ address {
             /* ===============
     Maximal Width
    =============== */
-            div.wrapper {
+            .wrapper {
                 width: 55%;
                 /* 1140px - 10% for margins */
                 margin: 50px 20% 30px 20%;
+                padding-left: 50px;
+                padding-right: 50px;
             }
         }
         /* ==========================================================================
