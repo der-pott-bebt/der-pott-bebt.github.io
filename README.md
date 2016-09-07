@@ -9,8 +9,7 @@ visit our project-website at https://der-pott-bebt.github.io/.
 If you noticed an error, know something that could be improved or just feel like writing us,
 please contact us via E-Mail or Twitter: https://der-pott-bebt.github.io/#contact. //
 
-
-
+__________________________
 
 Es tut uns leid, aber wir haben es bisher nicht geschafft, eine Readme-Datei für dich anzulegen.
 Wenn du per Zufall hier gelandet bist und nicht weißt warum, schau dir doch mal unsere Projekt-Website hierzu an unter 
