@@ -99,10 +99,10 @@
     <div id="whole">
 
         <header class="clearfix">
-            <img id="img-top" src="images/img-top.jpg" alt="" style="width:100%" />
-            <div id="text-top" class="w3-container w3-hide-small">
-                <h1><b>Der Pott bebt</b></h1>
-                <p>- Erdbeben im Ruhrgebiet -</p>
+            <img id="img-top" src="images/img-top.png" alt="" style="width:100%" />
+            <div id="text-top" class="w3-container ">
+                <h1 style="font-size:9em"><b>Der Pott bebt</b></h1>
+                <p style="font-size:4em">- Erdbeben im Ruhrgebiet -</p>
             </div>
         </header>
         <div class="wrapper">
@@ -135,7 +135,7 @@
                     Die Magnitude gibt an wie stark das Erdbeben an dem Ort war, an dem es ausgelöst wurde. Wie stark das Erdbeben an der Oberfläche zu spüren ist, hängt aber unter anderem auch von der Entfernung zum Epizentrum, der Tiefe des Bebens und der Bodenbeschaffenheit ab.
                   </p>
                   <p>
-                    Wie sich ein solches Mikrobeben aus nächster Nähen anfühlt, zeigt die folgende Skala. Sie beschreibt die Auswirkungen einzelner Beben direkt über dem Epizentrum. Der Großteil der Erdbeben ist gerade eben spürbar, nur wenige Beben erreichen einer Stärke von 2 oderhöher. Gebäudeschäden sind erst bei Magnituden über 4 zu erwarten.
+                    Wie sich ein solches Mikrobeben aus nächster Nähen anfühlt, zeigt die folgende Skala. Sie beschreibt die Auswirkungen einzelner Beben direkt über dem Epizentrum. Der Großteil der Erdbeben ist gerade eben spürbar, nur wenige Beben erreichen einer Stärke von 2 oder höher. Gebäudeschäden sind erst bei Magnituden über 4 zu erwarten.
                 </p>
                 <section id="section_scale" style="margin-bottom:-40px">
 
@@ -209,6 +209,9 @@
                                     rx="5.5987134" ry="5.5988202" />
                             </g>
                         </svg>
+                        <!--<p style="text-align:left;font-size:10px">
+                          Um einen Eindruck davon zu bekommen, wie sich ein Erdbeben anfühlen kann, wenn man direkt darüber wohnt, kannst Du deinen Mauszeiger über die  schwarzen Punkte halten.
+                        </p>-->
                     </div>
 
                     <div id="mag" style="height: 100%; ">
@@ -283,15 +286,15 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
                           Die Messdaten der Erdbeben lagen in zwei getrennten Datensätze vor. Dabei enthielt der erste Datensatz die Daten von 1983 bis 2014 und der zweite die Daten von 2014-2016. Zunächst wurden diese deshalb mit Hilfe von Excel und dem statistischen Programm zur Datenauswertung, namens R, angepasst und zusammengefügt.
                         </p>
                         <p>
-                          Des Weiteren wurden die Messpunkte von Erdbeben mit einer Magnitude kleiner 0,8 aus den Daten entfernt. Denn die Messgeräte können Erdbeben mit so kleinen Magnituden nur schlecht erfassen.
+                          Des Weiteren wurden die Messpunkte von Erdbeben mit einer Magnitude von weniger als 0,8 aus den Daten entfernt. Die Messgeräte können Erdbeben mit so kleinen Magnituden nur unzuverlässig erfassen.
                         </p>
                         <p>
-                          Die Erdbebenkarte wurde daraufhin mit Carto.com erstellt.
+                          Die Erdbebenkarte wurde daraufhin mit <a href="https://carto.com/">Carto.com</a> erstellt.
                         </p>
-                        <p>     Die Ursprungsdaten wurden unter anderem um die Spalte    <span id="chart1">“Wochentage”</span> ergänzt. Außerdem wurde das Zeitformat angepasst. So konnten die Histogramme der Erdbebenhäufigkeit über den Wochen- und Tagesverlauf erstellt werden. Beide wurden mit Hilfe von Highcharts.com designt. Gleiches gilt für das Histogramm über die Magnitudenhäufigkeiten.
+                        <p>Mithilfe der statistischen Programmiersprache R und  <a href="https://www.rstudio.com/">RStudio</a> wurden die Ursprungsdaten unter anderem um die Spalte <span id="chart1">“Wochentage”</span> ergänzt. Außerdem wurde mit R das Zeitformat angepasst. So konnten die Histogramme der Erdbebenhäufigkeit über den Wochen- und Tagesverlauf erstellt werden. Beide wurden mit Hilfe von <a href="http://www.highcharts.com/">Highcharts.com</a> visualisiert. Gleiches gilt für das Histogramm über die Magnitudenhäufigkeiten.
                         </p>
                         <p>
-                          Die zugehörige Skala wurde mit Inkscape erstellt.
+                          Die zugehörige Skala wurde als SVG mit dem freien, open-source Vektorgrafikeneditor <a href="https://inkscape.org/en/">"Inkscape"</a> erstellt und mit dem wunderbaren jQuery-Plugin <a href="https://iamceege.github.io/tooltipster/">"tooltipster"</a> mit Tooltips versehen.
                           <p/>
                     </p>
                     <!--Ende Methodik-->
@@ -311,14 +314,19 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
                   Bergbaufolgen Regierungsbezirk Arnsberg</a>
                   <br>
                   <a href="  http://juskis-erdbebennews.de/">Jens Skapskis Erdbebennews</a>
+                  <br>
+                  <br>
                     <h2>Quellen</h2>
+                    <p style="font-size:1.25em">
+                    <b>Erdbebendaten:</b>
+                  </p>
                     <p> <a href="http://www.gmg.ruhr-uni-bochum.de/geophysik/seisobs/index.html">Seismologisches Observatorium der Ruhr-Universität Bochum</a>
                       <p style="font-size:1.25em">
                       <b>Interviewpartner:</b>
                     </p>
                       <b>Dr. Kasper Fischer</b> - Leiter des Seismologischen Observatoriums der Ruhruniversität Bochum
                       <br>
-                      <b>Jens Skapsi</b> - Seismologisches Observatorium der Ruhruniversität Bochum
+                      <b>Jens Skapski</b> - Seismologisches Observatorium der Ruhruniversität Bochum
                       <br>
                       <b>Tassilo Terwelp</b>- Bezirksregierung Arnsberg
                       <br>
