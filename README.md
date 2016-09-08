@@ -2,7 +2,7 @@
 Datajournalism project for infographics class @TUDortmund. //
 Datenjournalistisches Projekt für das Infografiken-Seminar @TUDortmund.
 
-We're sorry, but didn't have the time yet to write an Readme file for you.
+We're sorry, but we haven't had time yet to write an Readme file for you.
 If you don't know why you're here and want to see what this github repository is for,
 visit our project-website at https://der-pott-bebt.github.io/.
 
