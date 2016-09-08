@@ -176,6 +176,15 @@ header:first-child::first-letter {
     color: #b20902;
 }
 
+section.infos {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div.wrapper {
+  margin-top: 5%;
+}
+
 /* Magnituden-Skala mit Tooltips */
 
 #section_scale {
@@ -221,6 +230,8 @@ address {
 
 .main-text {
   text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* ==========================================================================
    Media Queries
