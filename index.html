@@ -99,10 +99,10 @@
     <div id="whole">
 
         <header class="clearfix">
-            <img id="img-top" src="images/img-top.jpg" alt="" style="width:100%" />
-            <div id="text-top" class="w3-container w3-hide-small">
-                <h1><b>Der Pott bebt</b></h1>
-                <p>- Erdbeben im Ruhrgebiet -</p>
+            <img id="img-top" src="images/img-top.png" alt="" style="width:100%" />
+            <div id="text-top" class="w3-container ">
+                <h1 style="font-size:5em"><b>Der Pott bebt</b></h1>
+                <p style="font-size:2em">- Erdbeben im Ruhrgebiet -</p>
             </div>
         </header>
         <div class="wrapper">
@@ -286,15 +286,15 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
                           Die Messdaten der Erdbeben lagen in zwei getrennten Datensätze vor. Dabei enthielt der erste Datensatz die Daten von 1983 bis 2014 und der zweite die Daten von 2014-2016. Zunächst wurden diese deshalb mit Hilfe von Excel und dem statistischen Programm zur Datenauswertung, namens R, angepasst und zusammengefügt.
                         </p>
                         <p>
-                          Des Weiteren wurden die Messpunkte von Erdbeben mit einer Magnitude kleiner 0,8 aus den Daten entfernt. Denn die Messgeräte können Erdbeben mit so kleinen Magnituden nur schlecht erfassen.
+                          Des Weiteren wurden die Messpunkte von Erdbeben mit einer Magnitude von weniger als 0,8 aus den Daten entfernt. Die Messgeräte können Erdbeben mit so kleinen Magnituden nur unzuverlässig erfassen.
                         </p>
                         <p>
-                          Die Erdbebenkarte wurde daraufhin mit Carto.com erstellt.
+                          Die Erdbebenkarte wurde daraufhin mit <a href="https://carto.com/">Carto.com</a> erstellt.
                         </p>
-                        <p>     Die Ursprungsdaten wurden unter anderem um die Spalte    <span id="chart1">“Wochentage”</span> ergänzt. Außerdem wurde das Zeitformat angepasst. So konnten die Histogramme der Erdbebenhäufigkeit über den Wochen- und Tagesverlauf erstellt werden. Beide wurden mit Hilfe von Highcharts.com designt. Gleiches gilt für das Histogramm über die Magnitudenhäufigkeiten.
+                        <p>Mithilfe der statistischen Programmiersprache R und  <a href="https://www.rstudio.com/">RStudio</a> wurden die Ursprungsdaten unter anderem um die Spalte <span id="chart1">“Wochentage”</span> ergänzt. Außerdem wurde mit R das Zeitformat angepasst. So konnten die Histogramme der Erdbebenhäufigkeit über den Wochen- und Tagesverlauf erstellt werden. Beide wurden mit Hilfe von <a href="http://www.highcharts.com/">Highcharts.com</a> visualisiert. Gleiches gilt für das Histogramm über die Magnitudenhäufigkeiten.
                         </p>
                         <p>
-                          Die zugehörige Skala wurde mit Inkscape erstellt.
+                          Die zugehörige Skala wurde als SVG mit dem freien, open-source Vektorgrafikeneditor <a href="https://inkscape.org/en/">"Inkscape"</a> erstellt und mit dem wunderbaren jQuery-Plugin <a href="https://iamceege.github.io/tooltipster/">"tooltipster"</a> mit Tooltips versehen.
                           <p/>
                     </p>
                     <!--Ende Methodik-->
