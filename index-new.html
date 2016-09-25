@@ -9,14 +9,16 @@
     <title>Der Pott Bebt!</title>
 
     <!-- Bootstrap -->
-    <link href="css-new/bootstrap.min.css" rel="stylesheet">
     <link href="css-new/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css-new/bootstrap.css" rel="stylesheet">
+
     <!--CSS-->
     <link href="css-new/main.css" rel="stylesheet">
     <!--Font-->
     <style>
         @import 'https://fonts.googleapis.com/css?family=Open+Sans';
     </style>
+
     <script>
         $(document).ready(function() {
             $('.tooltip').tooltipster({
@@ -55,9 +57,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#section1">I: DEN BEBEN AUF DER SPUR<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#section1">I: DEN BEBEN AUF DER SPUR<span class="sr-only">(current)</span></a></li>
                     <li><a href="#section2">II: URSACHE BERGBAU</a></li>
-                    <li><a href="#section2">III: KEIN BERGBAU - KEINE BEBEN</a></li>
+                    <li><a href="#section3">III: KEIN BERGBAU - KEINE BEBEN</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEHR <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -89,7 +91,7 @@
             Kleinere Erdbeben sind im Ruhrgebiet seit Jahrzehnten immer wieder zu beobachten. Jedoch sind die meisten kaum spürbar und nur die wenigsten richten tatsächlich Schäden an. Das Beben in Botrop-Kirchhellen hatte eine Stärke von 3,3 und war bis nach Gelsenkirchen und Oberhausen noch spürbar. Damit war es eines der stärksten Erdbeben der vergangenen Jahre.
           </p>
           <p id="section1">
-            <h2>Den Beben auf der Spur</h2>
+            <h2>Den Beben auf der Spur <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h2>
             <br>
             Das Seismologische Observatorium in Bochum misst die Erschütterungen seit den 1980er Jahren - zunächst nur von Bochum aus. Später kamen dann auch Messstationen an den aktiven Zechen dazu. Denn ein Großteil der Beben wird durch den Bergbau verursacht, erklärt Dr. Kasper Fischer, Leiter des Observatoriums.
             </p>
@@ -188,7 +190,7 @@
           <div id="mag" style="height: 100%; ">
           </div>
           <p>
-            <h3 id="section2" style="padding-top:60px">Ursache Bergbau</h3>
+            <h2 id="section2" style="padding-top:60px">Ursache Bergbau <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h2>
             <br>
             Der Bergbau setzt die Erde um die Schächte herum stark unter Spannung. Wenn diese Spannungen zu groß werden, kommt es zu Brüchen in der Erde. An den Bruchstellen verschieben sich Erdschichten von einigen Metern Dicke um ein paar Millimeter gegeneinander. Diese Verschiebung ist der Ursprung der Erdbeben. Die Mikrobeben sind also eine direkte Folge des Bergbaus. Die zeitliche Verteilung der Erdbeben macht das besonders deutlich.
           </p>
@@ -202,7 +204,7 @@
                   </p>
                   <div class="chart" id="chart_hourly" style="min-width: 100%; height: 450px; margin: 0 auto; margin-bottom:-40px"></div>
 <p>
-<h3 id="section3" style="padding-top:60px">Kein Bergbau - keine Beben</h3>
+<h2 id="section3" style="padding-top:60px">Kein Bergbau - keine Beben <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h2>
 <p>
 Der starke Zusammenhang zwischen dem Bergbau und den Erdbeben zeigte sich auch, als das Bergwerks Ost bei Hamm 2015 den Betrieb einstellte. Innerhalb einer Monate gingen die Erdbeben fast vollständig zurück. Zuvor war die Region um Hamm ein regelrechter Erdbeben-Hotspot gewesen. Die Schließung der letzten Zeche im Ruhrgebiet, Prosper-Haniel, ist für 2018 geplant. Daraufhin werden wohl auch die Erdbeben irgendwann verschwinden.
 </p>
@@ -235,7 +237,7 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
         <div id="methodology">
         </div>
         <section>
-            <h2>Methodik</h2>
+            <h2>Methodik <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h2>
               <p>
                   Dieses Projekt entstand im Rahmen eines Seminars an der TU   Dortmund in Kooperation mit den Ruhr Nachrichten.
               </p>
@@ -249,7 +251,7 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
                   Des Weiteren wurden die Messpunkte von Erdbeben mit einer Magnitude von weniger als 0,8 aus den Daten entfernt. Die Messgeräte können Erdbeben mit so kleinen Magnituden nur unzuverlässig erfassen.
                 </p>
                 <p>
-                  Die Erdbebenkarte wurde daraufhin mit <a href="https://carto.com/">Carto.com</a> erstellt.
+                  Die Erdbebenkarte wurde daraufhin mit <a href="https://graph-zahl.carto.com/viz/617fbd4a-4788-11e6-b10b-0e3ebc282e83/public_map">Carto.com</a> erstellt.
                 </p>
                 <p>Mithilfe der statistischen Programmiersprache R und  <a href="https://www.rstudio.com/">RStudio</a> wurden die Ursprungsdaten unter anderem um die Spalte <span id="chart1">“Wochentage”</span> ergänzt. Außerdem wurde mit R das Zeitformat angepasst. So konnten die Histogramme der Erdbebenhäufigkeit über den Wochen- und Tagesverlauf erstellt werden. Beide wurden mit Hilfe von <a href="http://www.highcharts.com/">Highcharts.com</a> visualisiert. Gleiches gilt für das Histogramm über die Magnitudenhäufigkeiten.
                 </p>
@@ -264,7 +266,7 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
         <div id="sources">
         </div>
         <section class="infos">
-          <h2>Weiterführende Informationen und Hilfe bei Schäden:</h2>
+          <h2>Weiterführende Informationen und Hilfe bei Schäden: <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h2>
           <br>
           <a href="http://www.bid.rag.de/bid/index.html">Bürgerinformationsdienst der RAG</a>
 
@@ -272,7 +274,7 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
           <a href="http://www.bezreg-arnsberg.nrw.de/energie_bergbau/bergbaufolgen/index.php">
           Bergbaufolgen Regierungsbezirk Arnsberg</a>
           <br>
-          <a href="  http://juskis-erdbebennews.de/">Jens Skapskis Erdbebennews</a>
+          <a href="http://juskis-erdbebennews.de/">Jens Skapskis Erdbebennews</a>
           <br>
           <br>
             <h2>Quellen</h2>
@@ -302,14 +304,19 @@ In jedem Fall dauert es noch ein paar Jahre bis im Erdreich unter dem Ruhrgebiet
         <br>
         <br>
     </div>
+    <div class="container">
+      <div class="jumbotron">
     <footer>
-        <h3>Kontakt</h3>
+        <h3>Kontakt <a href="#" class="btn btn-link" role="button"><span class="glyphicon glyphicon-triangle-top"></span> Nach Oben</a></h3>
         <address>
     Datenauswertung & Text: Katharina Kock | <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0107;&#097;&#0116;&#0104;&#097;&#0114;&#0105;&#0110;&#097;&#046;&#0107;&#0111;&#099;&#0107;&#064;&#0116;&#0117;&#045;&#0100;&#0111;&#0114;&#0116;&#0109;&#0117;&#0110;&#0100;&#046;&#0100;&#0101;">E-Mail</a>
         <br> Text & Grafiken: Sophie Rotgeri | <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0115;&#0111;&#0112;&#0104;&#0105;&#0101;&#046;&#0114;&#0111;&#0116;&#0103;&#0101;&#0114;&#0105;&#064;&#0106;&#0111;&#0117;&#0114;&#0110;&#0111;&#099;&#0111;&#0100;&#0101;&#046;&#099;&#0111;&#0109;">E-Mail</a> | <a href="&#0104;&#0116;&#0116;&#0112;&#0115;&#058;&#047;&#047;&#0116;&#0119;&#0105;&#0116;&#0116;&#0101;&#0114;&#046;&#099;&#0111;&#0109;&#047;&#082;&#0111;&#0116;&#0103;&#0101;&#0114;&#0105;&#083;">Twitter</a>
         <br> Visualisierung & Website: Moritz Zajonz | <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0109;&#0111;&#0114;&#0105;&#0116;&#0122;&#046;&#0122;&#097;&#0106;&#0111;&#0110;&#0122;&#064;&#0106;&#0111;&#0117;&#0114;&#0110;&#0111;&#099;&#0111;&#0100;&#0101;&#046;&#099;&#0111;&#0109;">E-Mail</a> | <a href="&#0104;&#0116;&#0116;&#0112;&#0115;&#058;&#047;&#047;&#0116;&#0119;&#0105;&#0116;&#0116;&#0101;&#0114;&#046;&#099;&#0111;&#0109;&#047;&#0103;&#0114;&#097;&#0112;&#0104;&#095;&#0122;&#097;&#0104;&#0108;">Twitter</a>
     </address>
   </footer>
+</div>
+</div>
+
 </div>
     <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
